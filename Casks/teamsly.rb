@@ -1,15 +1,15 @@
 cask "teamsly" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.5.0"
+  version "0.6.0"
 
   on_arm do
-    sha256 "acfd62efaf77638d2c700c4f87974e254a2b14148f81560c19e900139b5f0d71"
+    sha256 "8e178a957cd5b21b69fe98fa0f6aad6876e279625ad7feff71774b34700a10b0"
     url "https://github.com/mayurrawte/teamsly/releases/download/v#{version}/Teamsly-#{version}-arm64.dmg",
         verified: "github.com/mayurrawte/teamsly/"
   end
   on_intel do
-    sha256 "181cf27df18c1a5fa9e7a00a5f2406193707edb85866acdec3b858e232412c83"
+    sha256 "1975b7dbf565194b5e46882d5578b6737bd372a92da73f8f39b970ccd42a12d4"
     url "https://github.com/mayurrawte/teamsly/releases/download/v#{version}/Teamsly-#{version}.dmg",
         verified: "github.com/mayurrawte/teamsly/"
   end
